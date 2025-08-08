@@ -13,6 +13,11 @@
             <header id="hd">
                 <div class="hd_top">
                     <div class="container container_top">
+                        <button type="button" id="m_menu_btn" class="all_menu_btn">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+                        </button>
                         <h1><a href="/"><img src="./img/logo.png" alt=""></a></h1>
                         <div class="hd_search">
                             <form action="" id="searchForm">
@@ -27,6 +32,7 @@
                             <li><a href="/">로그인</a></li>
                             <li><a href="/">회원가입</a></li>
                         </ul>
+                        <a href="/" class="m_search"></a>
                     </div>
                 </div>
 
@@ -36,7 +42,41 @@
                         <span class="bar bar2"></span>
                         <span class="bar bar3"></span>
                     </button>
-                    <div id="all_menu"></div>
+                    <div id="all_menu">
+                        <div class="container">
+                            <strong class="mon mB50">SITE MAP</strong>
+                            <nav>
+                                <ul class="menu_list">
+                                    <li class="dep1_li"><a href="/" class="dep1_a">시민기고</a></li>
+
+                                    <li class="dep1_li"><a href="/" class="dep1_a">소통 · 협력</a>
+                                        <ul class="sub_menus">
+                                            <li class="dep2_li"><a href="/" class="dep2_a">아이디어 공모</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dep1_li"><a href="/" class="dep1_a">지식교육DB</a>
+                                        <ul class="sub_menus">
+                                            <li class="dep2_li"><a href="/" class="dep2_a">법령 및 통계</a></li>
+                                            <li class="dep2_li"><a href="/" class="dep2_a">정책자료</a></li>
+                                            <li class="dep2_li"><a href="/" class="dep2_a">교육활동</a></li>
+                                            <li class="dep2_li"><a href="/" class="dep2_a">시민사회 연구기관</a></li>
+                                            <li class="dep2_li"><a href="/" class="dep2_a">비영리 단체</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dep1_li"><a href="/" class="dep1_a">공지사항</a></li>
+
+                                      <li class="dep1_li"><a href="/" class="dep1_a">소개</a>
+                                        <ul class="sub_menus">
+                                            <li class="dep2_li"><a href="/" class="dep2_a">시민통통</a></li>
+                                            <li class="dep2_li"><a href="/" class="dep2_a">조직</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                     <nav id="gnb">
                         <ul>
                             <li class="dep1_li"><a href="/" class="dep1_a">시민기고</a></li>
@@ -62,7 +102,7 @@
             </header>
 
             <div id="contents">
-                <div class="container">
+                <div class="container" id="gigo">
                     <ul class="page_path">
                         <li><a href="/"><img src="./img/path_home.png" alt=""></a></li>
                         <li class="on">시민기고</li>
@@ -147,12 +187,22 @@
                         <div class="ft_sites">
                             <button type="button" id="sites_btn">유관기관 사이트</button>
                             <ul class="sites_link_list">
-                                <li><a href="/" class="ellipsis hover_black_type">국무총리비서실</a></li>
-                                <li><a href="/" class="ellipsis hover_black_type">청년정책추진단</a></li>
-                                <li><a href="/" class="ellipsis hover_black_type">국민신문고</a></li>
-                                <li><a href="/" class="ellipsis hover_black_type">청년재단</a></li>
-                                <li><a href="/" class="ellipsis hover_black_type">민주주의 서울</a></li>
-                                <li><a href="/" class="ellipsis hover_black_type">비영리민간단체 공익활동 지원사업 관리정보시스템</a></li>
+                                <li><a href="/" class="ellipsis hover_black_type" style="color: #000000;background: #ffffff;border: 0.1em solid #CACACA;">국무총리비서실</a></li>
+                                <li><a href="/" class="ellipsis hover_black_type" style="color: #000000;
+    background: #ffffff;
+    border: 0.1em solid #CACACA;">청년정책추진단</a></li>
+                                <li><a href="/" class="ellipsis hover_black_type" style="color: #000000;
+    background: #ffffff;
+    border: 0.1em solid #CACACA;">국민신문고</a></li>
+                                <li><a href="/" class="ellipsis hover_black_type" style="color: #000000;
+    background: #ffffff;
+    border: 0.1em solid #CACACA;">청년재단</a></li>
+                                <li><a href="/" class="ellipsis hover_black_type" style="color: #000000;
+    background: #ffffff;
+    border: 0.1em solid #CACACA;">민주주의 서울</a></li>
+                                <li><a href="/" class="ellipsis hover_black_type" style="color: #000000;
+    background: #ffffff;
+    border: 0.1em solid #CACACA;">비영리민간단체 공익활동 지원사업 관리정보시스템</a></li>
                             </ul>
                         </div>
                     </div>
@@ -167,5 +217,6 @@
             </footer>
         </div>
     </div>
+   <script src="./main.js"></script>
 </body>
 </html>
