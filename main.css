@@ -277,10 +277,16 @@
 }
 
 .sub_top_bnr {
-    background: url("/img/에디터+여는+글_1240x540.jpg");
+    /* background: url("/img/에디터+여는+글_1240x540.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 540px;
+}
+
+.sub_top_bnr img {
     border-radius: 30px;
     overflow: hidden;
     height: 540px;
